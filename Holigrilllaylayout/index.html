@@ -5,47 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<style>
-    .container {
-        height: 100vh;
-        border: 3px solid black;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
 
-    .flextItem {
-        border: 1px solid red;
-        margin: 10px;
-
-    }
-
-    .flexitem-1 {
-        width: 200px;
-        height: 200px;
-        flex-shrink: 0;
-    }
-
-    .flexitem-2 {
-        width: 200px;
-        height: 200px;
-        flex-grow: 2;
-    }
-
-    .flexitem-3 {
-        width: 200px;
-        height: 200px;
-        flex-grow: 1;
-    }
-</style>
 
 <body>
+
+    <header>
+        <h1>Header</h1>
+    </header>
     <div class="container">
-        <div class="flextItem flexitem-1">12</div>
-        <div class="flextItem flexitem-2">23</div>
-        <div class="flextItem flexitem-3">34</div>
+        <aside class="side-content side-left">
+            <h2>Left Side content</h2>
+        </aside>
+        <main class="main-content">
+            <h2>Main content</h2>
+        </main>
+        <aside class="side-content side-right">
+            <h2>Right content</h2>
+        </aside>
     </div>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
 </body>
 <script src="index.js"></script>
 
