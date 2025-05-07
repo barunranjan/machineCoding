@@ -1,0 +1,14 @@
+.accordian,
+.accordian-item {
+    border: 1px solid #ccc;
+}
+
+.section-container {
+    padding: 10px;
+    display: none;
+}
+
+.section-header {
+    padding: 5px;
+    cursor: pointer;
+}
